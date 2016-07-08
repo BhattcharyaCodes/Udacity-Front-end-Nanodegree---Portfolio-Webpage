@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- favicon -->
+        <link href="images/favicon.ico" rel="icon">
+        <title>Rimil Dey | Portfolio</title>
+
+        <!-- CSS Stylesheets -->
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Josefin+Sans:400,700|Quicksand:400,700" rel="stylesheet">
+
+        <!-- Javascript files -->
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="jquery-ui-1.11.4/jquery-ui.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/83638a08d2.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".jumbotron ul li a").mouseenter(function(){
+                    $(this).css("color","#04b383");
+                });
+                $(".jumbotron ul li a").mouseleave(function(){
+                    $(this).css("color","#ffffff");
+                });
+                $(".scrollimg").mouseenter(function(){
+                    $(this).css("margin-top","4px");
+                });
+                $(".scrollimg").mouseleave(function(){
+                    $(this).css("margin-top","0px");
+                });
+                $(".scrollupimg").mouseenter(function(){
+                    $(this).css("margin-top","0px");
+                });
+                $(".scrollupimg").mouseleave(function(){
+                    $(this).css("margin-top","4px");
+                });
+                $(".projects p a").mouseenter(function(){
+                    $(this).css("color","#04b383");
+                });
+                $(".projects p a").mouseleave(function(){
+                    $(this).css("color","#ffffff");
+                });
+                
+            });
+        </script>
+
+
+    </head>
+
+    <body>
+
+        <header>
+            <!-- logo -->
+            <i class="fa fa-star-o fa-4x navbar-brand" aria-hidden="true"></i>
+        </header>
+            <div class="jumbotron" id="top">
+
+                <img src="images/rimil.jpg" class="img-responsive img-rounded" alt="Rimil Dey profile picture">
+
+                <h1 class="text-center">
+                    <strong>RIMIL</strong> DEY
+                </h1>
+
+                <h3 class="text-center">
+                    <strong>FRONT-END WEB DEVELOPER</strong>
+                </h3>
+
+
+                <ul>
+                    <li>
+                        <a href="#about-section"> ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#projects-section">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="#contact-section">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <a href="#about-section" >
+                <img class="img-responsive scrollimg" src="images/scrolldown.png" alt="scroll down button">
+            </a>
+
+            <section class="about" id="about-section">
+
+                <br>
+                <br>
+                <h1>ABOUT</h1>
+
+                <p>
+                    A would be Software engineer and front-end developer. I am also a bibliophile, a Ravenclaw,
+                    a quizzer, a huge fan of ASOIAF series, a die-heart Roger Federer supporter and an acknowledged
+                    lover of Mr. Darcy.<br><br><br><br>
+                    I know HTML5, CSS3, the basics of Javascript, Bootstrap, jQuery and Git. I am working continously
+                    towards learning newer technologies and increasing this list!<br><br><br><br>
+                </p>
+
+                <a href="#top">
+
+                    <img class="img-responsive scrollupimg" src="images/goup.png" alt="go up button">
+
+                </a>
+
+
+            </section>
+
+            <section class="projects" id="projects-section">
+
+                <h1>PROJECTS</h1>
+
+                <div class="container-fluid color-link">
+
+                    <div class="col-lg-4 col-lg-offset-0 col-md-4 col-sm-6 col-xs-12">
+                        <img src="http://placehold.it/350x250" alt="placeholder for future project" class="img-responsive placeholder-pic">
+                        <p>
+                            <a href="#">Github URL</a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-lg-offset-0 col-md-4 col-sm-6 col-xs-12">
+                        <img src="http://placehold.it/350x250" alt="placeholder for future project" class="img-responsive placeholder-pic">
+                        <p>
+                            <a href="#">Github URL</a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-lg-offset-0 col-md-4 col-sm-6 col-xs-12">
+                        <img src="http://placehold.it/350x250" alt="placeholder for future project" class="img-responsive placeholder-pic">
+                        <p>
+                            <a href="#">Github URL</a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <a href="#top">
+
+                    <img class="img-responsive scrollupimg" src="images/goup.png" alt="go up button">
+
+                </a>
+
+            </section>
+
+            <section class="contact" id="contact-section">
+
+                <h1>CONTACT</h1>
+                <p>
+                    Follow me on twitter : <a href="htp://www.twitter.com/rimildeyjsr"> @rimildeyjsr </a>
+                    <br><br>
+                    Linkedin Profile : <a href="https://www.linkedin.com/in/rimildeyjsr?trk=nav_responsive_tab_profile_pic"> linkedin.com/rimildeyjsr</a>
+                    <br><br>
+                    Github : <a href="http://www.github.com/rimildeyjsr"> github.com/rimildeyjsr</a>
+                </p>
+
+
+            </section>
+
+
+
+
+        <footer>
+            <p>Made with    <i class="fa fa-heart-o" aria-hidden="true"></i>  and   <i class="fa fa-coffee" aria-hidden="true"></i></p>
+            <a href="#top">
+
+                <img class="img-responsive scrollupimg" src="images/goup.png" alt="go up button">
+
+            </a>
+        </footer>
+
+    </body>
+
+</html>
